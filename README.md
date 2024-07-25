@@ -115,10 +115,7 @@
             | 응용 계층 (Application Layer) | 사용자와 네트워크 간의 상호 작용 | HTTP, FTP | 데이터 (Data) |
             | 표현 계층 (Presentation Layer) | 데이터의 형식 변환, 암호화/복호화 | JPEG, MPEG | 데이터 (Data) |
             | 세션 계층 (Session Layer) | 연결 접속 및 동기 제어 | SSH, TLS | 데이터 (Data) |
-            | 전송 계층 (Transport Layer) | - 신뢰성 있는 통신 보장
-            - 흐름 제어, 오류 제어, 혼잡 제어 등 흐오혼 | TCP, UD | 세그먼트(Segment) |
+            | 전송 계층 (Transport Layer) |  신뢰성 있는 통신 보장 / 흐름 제어, 오류 제어, 혼잡 제어 등 `흐오혼` | TCP, UD | 세그먼트(Segment) |
             | 네트워크 계층 (Network Layer) | 데이터 전송을 위한 최적화된 경로 제공 | IP, ICMP | 패킷 (Packet) |
-            | 데이터 링크 계층 (Data Link Layer) | - 인접 시스템 간 데이터 전송
-            - 전송오류 제어, 동기화, 흐름 제어 등의 전송 기능
-            - 오류 검출, 재전송 등 기능 | Ethernet(이더넷) | 프레임 (Frame) |
+            | 데이터 링크 계층 (Data Link Layer) | 인접 시스템 간 데이터 전송 / 전송오류 제어, 동기화, 흐름 제어 등의 전송 기능 / 오류 검출, 재전송 등 기능 | Ethernet(이더넷) | 프레임 (Frame) |
             | 물리 계층 (Physical Layer) | 0과 1 비트 정보를 회선에 보내기 위한 전기적 신호 변환 | RS-232C | 비트 (Bit) |
